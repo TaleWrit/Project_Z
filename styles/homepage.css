@@ -1,0 +1,11 @@
+/* hero section */
+.hero-section {
+    background-image: url(../images/backgrounds/shutterstock_560342020.0.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
