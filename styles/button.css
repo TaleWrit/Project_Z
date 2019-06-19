@@ -1,0 +1,11 @@
+.btn {
+    background-color: goldenrod;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
