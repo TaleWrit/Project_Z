@@ -22,6 +22,14 @@
     border-bottom: 3px solid goldenrod;
 }
 
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
 .form textarea {
     margin-top: 20px;
     width: 100%;
@@ -48,8 +56,13 @@
     margin-top: 0.7rem;
     display: block;
     transition: all 0.3s;
-    color: goldenrod
-    /* visibility */
-    /* opacity */
+    color: goldenrod;
+    visibility:hidden;
+    opacity:0;
 }
 
+.form input:focus + label, .form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}

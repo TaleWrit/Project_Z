@@ -20,3 +20,8 @@
     font-size: 1.25em;
 }
 
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: goldenrod;
+}
+
